@@ -34,7 +34,7 @@ cortex-m-rtic = { version = "1.1.4", features = [
 
 [dependencies.aducm410]
 package = "aducm410-staging"
-path = "../aducm410-staging"
+git = {"git@github.com:rt4bc/aducm410-staging.git"}
 
 [dependencies.time]
 version = "0.3.37"
