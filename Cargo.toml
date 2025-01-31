@@ -33,7 +33,8 @@ cortex-m-rtic = { version = "1.1.4", features = [
 ], optional = true }
 
 [dependencies.aducm410]
-aducm410-staging = {git = "https://github.com/rt4bc/aducm410-staging.git"}
+package = "aducm410-staging"
+git = "https://github.com/rt4bc/aducm410-staging.git"
 
 [dependencies.time]
 version = "0.3.37"
